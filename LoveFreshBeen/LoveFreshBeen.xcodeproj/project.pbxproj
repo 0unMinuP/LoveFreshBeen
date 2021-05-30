@@ -41,6 +41,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E11405F1E49ADAF00E9073E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		3EC47D8E1E49AB20004C8D23 = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +69,7 @@
 		3EC47D991E49AB20004C8D23 /* LoveFreshBeen */ = {
 			isa = PBXGroup;
 			children = (
+				3E11405F1E49ADAF00E9073E /* Classes */,
 				3EC47D9A1E49AB20004C8D23 /* AppDelegate.swift */,
 				3EC47D9C1E49AB20004C8D23 /* ViewController.swift */,
 				3EC47D9E1E49AB20004C8D23 /* Main.storyboard */,
@@ -339,6 +347,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = LoveFreshBeen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.odm.LoveFreshBeen.LoveFreshBeen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,6 +364,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = LoveFreshBeen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.odm.LoveFreshBeen.LoveFreshBeen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -382,6 +392,7 @@
 				3EC47DAB1E49AB20004C8D23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
