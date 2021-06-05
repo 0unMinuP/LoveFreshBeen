@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		19A79D42C4A2716A5FEA64A2 /* Pods_LoveFreshBeen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D83E913B20585AC412D5685 /* Pods_LoveFreshBeen.framework */; };
+		3E1140621E49AFDD00E9073E /* ADViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1140611E49AFDD00E9073E /* ADViewController.swift */; };
 		3EC47D9B1E49AB20004C8D23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC47D9A1E49AB20004C8D23 /* AppDelegate.swift */; };
 		3EC47D9D1E49AB20004C8D23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC47D9C1E49AB20004C8D23 /* ViewController.swift */; };
 		3EC47DA01E49AB20004C8D23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC47D9E1E49AB20004C8D23 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		28C312F52FB53D552268A270 /* Pods-LoveFreshBeen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveFreshBeen.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoveFreshBeen/Pods-LoveFreshBeen.release.xcconfig"; sourceTree = "<group>"; };
+		3E1140611E49AFDD00E9073E /* ADViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADViewController.swift; sourceTree = "<group>"; };
 		3EC47D971E49AB20004C8D23 /* LoveFreshBeen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveFreshBeen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EC47D9A1E49AB20004C8D23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EC47D9C1E49AB20004C8D23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,8 +46,17 @@
 		3E11405F1E49ADAF00E9073E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3E1140601E49AFAB00E9073E /* AD */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		3E1140601E49AFAB00E9073E /* AD */ = {
+			isa = PBXGroup;
+			children = (
+				3E1140611E49AFDD00E9073E /* ADViewController.swift */,
+			);
+			path = AD;
 			sourceTree = "<group>";
 		};
 		3EC47D8E1E49AB20004C8D23 = {
@@ -223,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EC47D9D1E49AB20004C8D23 /* ViewController.swift in Sources */,
+				3E1140621E49AFDD00E9073E /* ADViewController.swift in Sources */,
 				3EC47D9B1E49AB20004C8D23 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
