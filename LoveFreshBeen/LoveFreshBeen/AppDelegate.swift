@@ -12,10 +12,14 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var adViewController: ADViewController?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // 设置主窗口
+        buildKeyWindow()
+        
         return true
     }
 
@@ -42,5 +46,39 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 
+}
+
+// MARK: - extension Method
+extension AppDelegate {
+    
+    /// 设置主窗口
+    fileprivate func buildKeyWindow() {
+        
+        window = UIWindow(frame: ScreenBounds)
+        window?.makeKeyAndVisible()
+        
+        let isFristOpen = UserDefaults.standard.object(forKey: "isFristOpenApp")
+        
+        if isFristOpen == nil {
+            window?.rootViewController = GuideViewController()
+            UserDefaults.standard.set("isFristOpenApp", forKey: "isFristOpenApp")
+        } else {
+            loadADRootViewController()
+        }
+        
+    }
+    
+    func loadADRootViewController() {
+        adViewController = ADViewController()
+        
+        weak var tmpSelf = self
+        MainAD.loadADData { (data, error) -> Void in
+            if data?.data?.img_name != nil {
+//                tmpSelf!.adViewController!.imageName = data!.data!.img_name
+                tmpSelf!.window?.rootViewController = self.adViewController
+            }
+        }
+    }
+    
 }
 

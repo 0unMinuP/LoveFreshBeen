@@ -9,6 +9,28 @@
 /* Begin PBXBuildFile section */
 		19A79D42C4A2716A5FEA64A2 /* Pods_LoveFreshBeen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D83E913B20585AC412D5685 /* Pods_LoveFreshBeen.framework */; };
 		3E1140621E49AFDD00E9073E /* ADViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1140611E49AFDD00E9073E /* ADViewController.swift */; };
+		3E1140651E49B2FA00E9073E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1140641E49B2FA00E9073E /* Theme.swift */; };
+		3E11406A1E49B41E00E9073E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1140691E49B41E00E9073E /* BaseViewController.swift */; };
+		3E11406D1E49B4BE00E9073E /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E11406C1E49B4BE00E9073E /* Color+Extension.swift */; };
+		3E11406F1E49B51600E9073E /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E11406E1E49B51600E9073E /* GuideViewController.swift */; };
+		3E1140721E49B5F700E9073E /* MainAD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1140711E49B5F700E9073E /* MainAD.swift */; };
+		3E1140851E49B70F00E9073E /* 促销 in Resources */ = {isa = PBXBuildFile; fileRef = 3E1140741E49B70F00E9073E /* 促销 */; };
+		3E1140861E49B70F00E9073E /* 首页焦点按钮 in Resources */ = {isa = PBXBuildFile; fileRef = 3E1140751E49B70F00E9073E /* 首页焦点按钮 */; };
+		3E1140871E49B70F00E9073E /* 首页新鲜热卖 in Resources */ = {isa = PBXBuildFile; fileRef = 3E1140761E49B70F00E9073E /* 首页新鲜热卖 */; };
+		3E1140881E49B70F00E9073E /* 系统消息 in Resources */ = {isa = PBXBuildFile; fileRef = 3E1140771E49B70F00E9073E /* 系统消息 */; };
+		3E1140891E49B70F00E9073E /* AD in Resources */ = {isa = PBXBuildFile; fileRef = 3E1140781E49B70F00E9073E /* AD */; };
+		3E11408A1E49B70F00E9073E /* FocusURL.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E1140791E49B70F00E9073E /* FocusURL.plist */; };
+		3E11408B1E49B70F00E9073E /* HelpPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E11407A1E49B70F00E9073E /* HelpPlist.plist */; };
+		3E11408C1E49B70F00E9073E /* Mine in Resources */ = {isa = PBXBuildFile; fileRef = 3E11407B1E49B70F00E9073E /* Mine */; };
+		3E11408D1E49B70F00E9073E /* MinePlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E11407C1E49B70F00E9073E /* MinePlist.plist */; };
+		3E11408E1E49B70F00E9073E /* MyAdress in Resources */ = {isa = PBXBuildFile; fileRef = 3E11407D1E49B70F00E9073E /* MyAdress */; };
+		3E11408F1E49B70F00E9073E /* MyCoupon in Resources */ = {isa = PBXBuildFile; fileRef = 3E11407E1E49B70F00E9073E /* MyCoupon */; };
+		3E1140901E49B70F00E9073E /* MyOrders in Resources */ = {isa = PBXBuildFile; fileRef = 3E11407F1E49B70F00E9073E /* MyOrders */; };
+		3E1140911E49B70F00E9073E /* Search in Resources */ = {isa = PBXBuildFile; fileRef = 3E1140801E49B70F00E9073E /* Search */; };
+		3E1140921E49B70F00E9073E /* SearchProduct in Resources */ = {isa = PBXBuildFile; fileRef = 3E1140811E49B70F00E9073E /* SearchProduct */; };
+		3E1140931E49B70F00E9073E /* supermarket in Resources */ = {isa = PBXBuildFile; fileRef = 3E1140821E49B70F00E9073E /* supermarket */; };
+		3E1140941E49B70F00E9073E /* SystemMessage in Resources */ = {isa = PBXBuildFile; fileRef = 3E1140831E49B70F00E9073E /* SystemMessage */; };
+		3E1140951E49B70F00E9073E /* UserMessage in Resources */ = {isa = PBXBuildFile; fileRef = 3E1140841E49B70F00E9073E /* UserMessage */; };
 		3EC47D9B1E49AB20004C8D23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC47D9A1E49AB20004C8D23 /* AppDelegate.swift */; };
 		3EC47D9D1E49AB20004C8D23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC47D9C1E49AB20004C8D23 /* ViewController.swift */; };
 		3EC47DA01E49AB20004C8D23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC47D9E1E49AB20004C8D23 /* Main.storyboard */; };
@@ -19,6 +41,28 @@
 /* Begin PBXFileReference section */
 		28C312F52FB53D552268A270 /* Pods-LoveFreshBeen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveFreshBeen.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoveFreshBeen/Pods-LoveFreshBeen.release.xcconfig"; sourceTree = "<group>"; };
 		3E1140611E49AFDD00E9073E /* ADViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADViewController.swift; sourceTree = "<group>"; };
+		3E1140641E49B2FA00E9073E /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		3E1140691E49B41E00E9073E /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		3E11406C1E49B4BE00E9073E /* Color+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		3E11406E1E49B51600E9073E /* GuideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
+		3E1140711E49B5F700E9073E /* MainAD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainAD.swift; sourceTree = "<group>"; };
+		3E1140741E49B70F00E9073E /* 促销 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "促销"; sourceTree = "<group>"; };
+		3E1140751E49B70F00E9073E /* 首页焦点按钮 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "首页焦点按钮"; sourceTree = "<group>"; };
+		3E1140761E49B70F00E9073E /* 首页新鲜热卖 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "首页新鲜热卖"; sourceTree = "<group>"; };
+		3E1140771E49B70F00E9073E /* 系统消息 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "系统消息"; sourceTree = "<group>"; };
+		3E1140781E49B70F00E9073E /* AD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AD; sourceTree = "<group>"; };
+		3E1140791E49B70F00E9073E /* FocusURL.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FocusURL.plist; sourceTree = "<group>"; };
+		3E11407A1E49B70F00E9073E /* HelpPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HelpPlist.plist; sourceTree = "<group>"; };
+		3E11407B1E49B70F00E9073E /* Mine */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mine; sourceTree = "<group>"; };
+		3E11407C1E49B70F00E9073E /* MinePlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MinePlist.plist; sourceTree = "<group>"; };
+		3E11407D1E49B70F00E9073E /* MyAdress */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MyAdress; sourceTree = "<group>"; };
+		3E11407E1E49B70F00E9073E /* MyCoupon */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MyCoupon; sourceTree = "<group>"; };
+		3E11407F1E49B70F00E9073E /* MyOrders */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MyOrders; sourceTree = "<group>"; };
+		3E1140801E49B70F00E9073E /* Search */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Search; sourceTree = "<group>"; };
+		3E1140811E49B70F00E9073E /* SearchProduct */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SearchProduct; sourceTree = "<group>"; };
+		3E1140821E49B70F00E9073E /* supermarket */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = supermarket; sourceTree = "<group>"; };
+		3E1140831E49B70F00E9073E /* SystemMessage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SystemMessage; sourceTree = "<group>"; };
+		3E1140841E49B70F00E9073E /* UserMessage */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UserMessage; sourceTree = "<group>"; };
 		3EC47D971E49AB20004C8D23 /* LoveFreshBeen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveFreshBeen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EC47D9A1E49AB20004C8D23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EC47D9C1E49AB20004C8D23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +90,10 @@
 		3E11405F1E49ADAF00E9073E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3E1140731E49B6EE00E9073E /* Resouce */,
+				3E1140671E49B40100E9073E /* LFBBase */,
+				3E1140661E49B3CF00E9073E /* Mine */,
+				3E1140631E49B2DB00E9073E /* Other */,
 				3E1140601E49AFAB00E9073E /* AD */,
 			);
 			path = Classes;
@@ -54,9 +102,83 @@
 		3E1140601E49AFAB00E9073E /* AD */ = {
 			isa = PBXGroup;
 			children = (
+				3E1140701E49B5D800E9073E /* Model */,
 				3E1140611E49AFDD00E9073E /* ADViewController.swift */,
 			);
 			path = AD;
+			sourceTree = "<group>";
+		};
+		3E1140631E49B2DB00E9073E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				3E1140641E49B2FA00E9073E /* Theme.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		3E1140661E49B3CF00E9073E /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				3E11406E1E49B51600E9073E /* GuideViewController.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		3E1140671E49B40100E9073E /* LFBBase */ = {
+			isa = PBXGroup;
+			children = (
+				3E11406B1E49B4A600E9073E /* Extension */,
+				3E1140681E49B40100E9073E /* Common */,
+			);
+			path = LFBBase;
+			sourceTree = "<group>";
+		};
+		3E1140681E49B40100E9073E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3E1140691E49B41E00E9073E /* BaseViewController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3E11406B1E49B4A600E9073E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3E11406C1E49B4BE00E9073E /* Color+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3E1140701E49B5D800E9073E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3E1140711E49B5F700E9073E /* MainAD.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3E1140731E49B6EE00E9073E /* Resouce */ = {
+			isa = PBXGroup;
+			children = (
+				3E1140741E49B70F00E9073E /* 促销 */,
+				3E1140751E49B70F00E9073E /* 首页焦点按钮 */,
+				3E1140761E49B70F00E9073E /* 首页新鲜热卖 */,
+				3E1140771E49B70F00E9073E /* 系统消息 */,
+				3E1140781E49B70F00E9073E /* AD */,
+				3E1140791E49B70F00E9073E /* FocusURL.plist */,
+				3E11407A1E49B70F00E9073E /* HelpPlist.plist */,
+				3E11407B1E49B70F00E9073E /* Mine */,
+				3E11407C1E49B70F00E9073E /* MinePlist.plist */,
+				3E11407D1E49B70F00E9073E /* MyAdress */,
+				3E11407E1E49B70F00E9073E /* MyCoupon */,
+				3E11407F1E49B70F00E9073E /* MyOrders */,
+				3E1140801E49B70F00E9073E /* Search */,
+				3E1140811E49B70F00E9073E /* SearchProduct */,
+				3E1140821E49B70F00E9073E /* supermarket */,
+				3E1140831E49B70F00E9073E /* SystemMessage */,
+				3E1140841E49B70F00E9073E /* UserMessage */,
+			);
+			path = Resouce;
 			sourceTree = "<group>";
 		};
 		3EC47D8E1E49AB20004C8D23 = {
@@ -172,8 +294,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E11408B1E49B70F00E9073E /* HelpPlist.plist in Resources */,
+				3E1140861E49B70F00E9073E /* 首页焦点按钮 in Resources */,
 				3EC47DA51E49AB20004C8D23 /* LaunchScreen.storyboard in Resources */,
+				3E1140901E49B70F00E9073E /* MyOrders in Resources */,
+				3E1140931E49B70F00E9073E /* supermarket in Resources */,
+				3E11408C1E49B70F00E9073E /* Mine in Resources */,
+				3E1140851E49B70F00E9073E /* 促销 in Resources */,
+				3E1140951E49B70F00E9073E /* UserMessage in Resources */,
+				3E1140891E49B70F00E9073E /* AD in Resources */,
+				3E11408D1E49B70F00E9073E /* MinePlist.plist in Resources */,
+				3E1140941E49B70F00E9073E /* SystemMessage in Resources */,
 				3EC47DA21E49AB20004C8D23 /* Assets.xcassets in Resources */,
+				3E11408E1E49B70F00E9073E /* MyAdress in Resources */,
+				3E1140881E49B70F00E9073E /* 系统消息 in Resources */,
+				3E1140921E49B70F00E9073E /* SearchProduct in Resources */,
+				3E11408F1E49B70F00E9073E /* MyCoupon in Resources */,
+				3E1140911E49B70F00E9073E /* Search in Resources */,
+				3E1140871E49B70F00E9073E /* 首页新鲜热卖 in Resources */,
+				3E11408A1E49B70F00E9073E /* FocusURL.plist in Resources */,
 				3EC47DA01E49AB20004C8D23 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -233,7 +372,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E11406A1E49B41E00E9073E /* BaseViewController.swift in Sources */,
+				3E1140721E49B5F700E9073E /* MainAD.swift in Sources */,
+				3E11406D1E49B4BE00E9073E /* Color+Extension.swift in Sources */,
 				3EC47D9D1E49AB20004C8D23 /* ViewController.swift in Sources */,
+				3E11406F1E49B51600E9073E /* GuideViewController.swift in Sources */,
+				3E1140651E49B2FA00E9073E /* Theme.swift in Sources */,
 				3E1140621E49AFDD00E9073E /* ADViewController.swift in Sources */,
 				3EC47D9B1E49AB20004C8D23 /* AppDelegate.swift in Sources */,
 			);
@@ -279,6 +423,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -328,6 +473,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
