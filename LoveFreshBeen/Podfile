@@ -6,5 +6,6 @@ target 'LoveFreshBeen' do
   use_frameworks!
 
   # Pods for LoveFreshBeen
+  pod 'YYModel', '~> 1.0.4'
 
 end
